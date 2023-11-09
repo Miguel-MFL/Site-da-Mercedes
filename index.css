@@ -1,0 +1,219 @@
+*{
+    color: rgb(23, 163, 163);
+}
+
+*{
+    font-family:sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{/*cor do html*/
+    background-color: black;
+   padding: 10px;
+  }
+
+header{
+    display: flex;/*O display Flex serve para ativar o align-content e o justify-content*/
+    align-content:center;/*serve para alinha na vertical */
+    justify-content: space-between ;/*serve para alinha na horizontal */
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+
+header nav a { 
+    color: rgb(23, 163, 163);
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(71, 68, 68);
+    border-radius: 8px;
+
+}
+
+#inicio{
+    display:flex;
+    align-content:center;/*serve para alinha na vertical */
+    gap:32px;
+    /* topo, dirita, baixo, esquerda*/
+    padding: 24px 80px 128px 80px;
+    position: relative;
+
+}
+
+h1, h2, h3{
+    font-weight: 600;/*o font-weight: 600; nao esta fucionado */
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: rgb(233, 233, 237);
+}
+
+h4{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 7px;
+    margin-top: 17px;
+}
+
+.inicio {
+   line-height: 150%;
+   margin-bottom: 32px;
+}
+ .botao{
+    background-color: aliceblue;
+    font-weight: 600;
+    border-radius: 8px;
+ /*vertical. horizont*/
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.botao-transparente{
+    background-color: rgb(71, 68, 68);
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-decoration: none;  
+}
+
+#oficinas{
+   display: flex;
+   align-items: center;
+   gap:64px ;
+   padding: 64px 80px;
+}
+
+#oficinas li {
+  margin-bottom:7px ;
+  margin-left:24 ;
+
+}
+
+#concessionarias{
+padding: 64px 80px;
+text-align: center;
+}
+
+#concessionarias img{
+    margin: 64px auto;
+}
+
+#concessionarias p {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#nossa-historia{
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#nossa-historia{
+    margin: 64px auto;
+}
+
+#nossa-historia{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#sobre-nos{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+      
+}
+
+.nos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.duvida  h4{
+    border: 1px solid rgb(23, 163, 163);
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;   
+    padding: 7px ;
+}
+
+
+.duvida .paragrafo{
+    border-right: 1px solid aliceblue ;
+    border-bottom: 1px solid aliceblue ;
+    border-left:  1px solid aliceblue ;
+    border-radius: 0 0 8px 8px ;
+    margin-top: -8px;
+    padding: 0 20px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.duvida.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+
+
+footer{
+   background-color: rgba(71, 68, 68);
+   display: flex;
+   gap: 80px;
+   padding: 64px 80px;
+}
+
+.sonbra{
+    box-shadow: 10px 0 30px cornsilk;
+}
+
+.cor{
+    color:rgb(23, 163, 163) ;
+}
+
+
+
+footer ing
+footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer a{
+    color: aliceblue;
+    display: block;
+    bottom: 16px;
+    text-decoration: none;
+    max-width: 360px;
+}
+
+
+
+
+
+#creditos{
+    background-color: black;
+    padding: 24px;
+    text-align: center;
+}
+
+#creditos a{
+    color: #ffffff;
+}
+
+
+
+
+
